@@ -1,0 +1,12 @@
+*,body,div,main,header,.el-header{
+  margin: 0;
+  padding: 0;
+}
+.menu-button-icon {
+  outline: none;
+  border: none;
+  background: none;
+  i {
+    cursor: pointer;
+  }
+}
