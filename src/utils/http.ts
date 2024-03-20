@@ -19,7 +19,7 @@ instance.interceptors.request.use(
     // 在发送请求之前做些什么
     config.headers = {
       Authorization: `Bearer ${getCookie('token')}`|| '',
-      'Content-Type': 'application/json' // 便民服务子系统
+      'Content-Type': 'application/json' 
     }
     
     return config;
